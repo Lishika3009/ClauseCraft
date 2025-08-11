@@ -1,7 +1,3 @@
-Perfect — if you already have the picture, we can add an **Architecture** section to the README that embeds it.
-Here’s your updated Markdown file with the section added:
-
-````markdown
 # ClauseCraft – AI-Powered Legal Assistant with CrewAI, RAG, Streamlit, Tavily, and VectorDB
 
 An intelligent AI legal assistant that understands legal issues, researches relevant laws, and generates tailored legal documents using advanced AI and retrieval-augmented generation.
@@ -33,7 +29,7 @@ An intelligent AI legal assistant that understands legal issues, researches rele
 
 ## 🏗 Architecture
 
-![ClauseCraft Architecture](assets/clausecraft_architecture.png)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fa1ea5f6-2f00-4518-8ea3-7ebccb41ae07" />
 
 *The system uses CrewAI to orchestrate specialized agents for classification, retrieval, and drafting. A VectorDB enables RAG-based legal research, and the Streamlit UI allows users to interact with the assistant seamlessly.*
 
@@ -43,8 +39,8 @@ An intelligent AI legal assistant that understands legal issues, researches rele
 
 **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/clausecraft.git
-cd clausecraft
+git clone https://github.com/Lishika3009/ClauseCraft.git
+cd ClauseCraft
 ````
 
 **Install dependencies:**
@@ -82,7 +78,7 @@ http://localhost:8501
 
 **Workflow:**
 
-1. Enter your legal query or upload a document.
+1. Enter your legal query.
 2. Select analysis type: legal issue classification, research, or drafting.
 3. Receive structured output with references and downloadable legal documents.
 
@@ -115,15 +111,4 @@ http://localhost:8501
 * Advanced legal analytics and risk assessment
 * Integration with government legal APIs
 
-```
-
-📌 Just save your architecture image as  
-```
-
-assets/clausecraft\_architecture.png
-
-```
-and GitHub will display it.  
-
-Do you want me to **also make a quick diagram for the architecture** so it looks clean and you don’t have to rely on just the raw screenshot? That would make it match other professional GitHub READMEs.
 ```
