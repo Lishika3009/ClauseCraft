@@ -60,22 +60,6 @@ PERSIST_DIRECTORY_PATH=path_to_your_chroma_vectordb_directory
 IPC_COLLECTION_NAME=ipc_collection
 ```
 
----
-
-## 🎯 Usage
-
-**Run the application:**
-
-```bash
-streamlit run app.py
-```
-
-**Access in browser:**
-
-```
-http://localhost:8501
-```
-
 **Workflow:**
 
 1. Enter your legal query.
@@ -111,4 +95,4 @@ http://localhost:8501
 * Advanced legal analytics and risk assessment
 * Integration with government legal APIs
 
-```
+
